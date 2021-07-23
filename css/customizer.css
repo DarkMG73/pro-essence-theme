@@ -1,0 +1,285 @@
+#customize-controls .customize-control-kirki-custom {
+  box-shadow: inset -3px -3px 7px -4px black, inset 3px 3px 7px -4px white;
+  margin: 25px 0 0;
+  background: #0073aa;
+  border-radius: 50% 50%0 0;
+}
+
+#customize-controls .customize-control-kirki-custom:nth-child(2) {
+  margin: 0;
+}
+
+#customize-controls .customize-control-kirki-custom:nth-child(3) {
+  background: white;
+  margin: 0 0 12.5px;
+  border-radius: 0 0 25% 25%;
+  font-size: 24px;
+}
+
+#customize-controls .customizer-divider {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.25em;
+  font-size: 24px;
+  padding: 1em 0.25em;
+  font-weight: 900;
+  line-height: 1.125;
+}
+
+.customize-control {
+  box-shadow: inset 2px 1px 7px -4px black, inset -2px -1px 7px -4px #b6b6b6;
+  padding: 1em;
+  background: white;
+  box-sizing: border-box;
+}
+
+#customize-controls .customizer-divider h2,
+#customize-controls .customizer-divider h3 {
+  font: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+
+#customize-control-content_background_image_settings .background-color,
+#customize-control-body_background_image_settings .background-color {
+  display: none;
+}
+
+/* Skins */
+/* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
+#customize-outer-theme-controls .accordion-section-title,
+#customize-theme-controls .accordion-section-title,
+#customize-theme-controls .control-panel-themes > .accordion-section-title,
+#customize-controls .customize-control-kirki-custom,
+.wp-full-overlay-sidebar-content,
+#customize-header-actions,
+.notice.notice-warning.is-dismissible,
+#customize-controls .customize-info .accordion-section-title,
+#customize-outer-theme-controls .accordion-section-title,
+#customize-theme-controls .accordion-section-title {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+#customize-outer-theme-controls .accordion-section-title,
+#customize-theme-controls .accordion-section-title {
+  line-height: 3em;
+}
+
+#customize-outer-theme-controls .accordion-section-title,
+#customize-theme-controls .accordion-section-title {
+  line-height: 3em;
+  text-shadow: -1px -1px 0px rgb(0 0 0 / 58%), 1px 1px 0px white;
+  color: #ffffff30;
+}
+
+#customize-controls .control-section .accordion-section-title:focus,
+#customize-controls .control-section .accordion-section-title:hover,
+#customize-controls .control-section.open .accordion-section-title,
+#customize-controls .control-section:hover > .accordion-section-title {
+  color: #444;
+  background: initial !important;
+  border-left-color: inherit;
+  font-weight: 700;
+  text-shadow: 1px 1px 0px white;
+}
+
+#customize-controls .customizer-divider {
+  color: #ffffff00;
+}
+
+#customize-controls .customize-control-kirki-custom {
+  text-shadow: -1px -1px 1px rgb(0 0 0 / 25%), 1px 1px 1px white;
+}
+
+#customize-controls .customize-control-kirki-custom p,  #customize-controls .customize-control-kirki-custom .intro-text{
+  text-shadow: none;
+}
+/* Photo CTA Tools */
+.photo-cta-image-subgroup-title {
+  padding: 1em 0 0;
+  text-align: center;
+  color: #00000017;
+  font-weight: 700;
+  font-variant: all-petite-caps;
+  font-size: 16px;
+}
+
+#customize-control-footer_photo_cta_on_off_toggle_setting,
+#customize-control-footer_photo_cta_photo_text_editor_setting,
+li[id*="photo_cta"], .wp-editor-container .quicktags-toolbar input {
+  background: #0273aa;
+  color: white;
+}
+
+li[id*="photo_cta_photo"] span,
+li[id*="photo_cta_photo"] input {
+  color: white !important;
+}
+
+#customize-control-footer_photo_cta_on_off_toggle_setting {
+  padding: 30px 15px;
+}
+
+.customize-control-kirki-toggle .switch:after,
+.customize-control-kirki-toggle .switch:before,
+input[type="range"]::-webkit-slider-thumb {
+  box-shadow: inset 7px 7px 10px -7px white,
+    inset -7px -7px 10px -7px rgb(0 0 0 / 50%), 7px 7px 10px -7px black !important;
+  border: none !important;
+  background: #e8dacf !important;
+  height: 33px !important;
+  line-height: 33px;
+  width: 25px;
+  text-align: center;
+  color: rgb(0 0 0 / 25%);
+  font-variant: all-small-caps;
+  transition: inherit;
+}
+
+.customize-control-kirki-toggle .switch,
+.customize-control-kirki-slider .wrapper input[type="range"] {
+  box-shadow: inset -5px -5px 7px -5px white,
+    inset 3px 4px 7px -5px rgb(0 0 0 / 75%);
+  border: 1px inset #cdcdcd;
+  font-size: 10px;
+  transition: 0.2s all ease;
+}
+
+.customize-control-kirki-toggle .switch:after,
+.customize-control-kirki-toggle .switch:before {
+  content: "Off";
+}
+
+#customize-theme-controls
+  .customize-control-kirki-toggle
+  input:checked
+  + .switch:after {
+  content: "On";
+  color: rgb(255 255 255 / 57%);
+  background: #0073aa !important;
+  box-shadow: inset 7px 7px 10px -7px white,
+    inset -7px -7px 10px -7px rgb(0 0 0 / 50%),
+    inset 17px 17px 20px -17px rgb(255 255 255 / 50%);
+}
+
+.customize-control-kirki-switch label:after {
+  width: calc(0.85rem + 37px);
+}
+
+.customize-control-kirki-switch .switch-off {
+  padding-right: 1em;
+}
+
+.customize-control-kirki-switch .switch-on {
+  padding-left: 1em;
+}
+
+.customize-control-kirki-toggle .switch:active:before,
+.customize-control-kirki-toggle .switch:active:after {
+  transform: translate3d(0, -50%, 0) scale(1.25);
+}
+.customize-control-kirki-toggle input:checked + .switch:before {
+  background: rgba(0, 115, 170, 0.075);
+  transform: translate3d(100%, -50%, 0) scale(1);
+}
+.customize-control-kirki-toggle input:checked + .switch:after {
+  background: #0073aa;
+  transform: translate3d(100%, -50%, 0) scale(1);
+}
+.customize-control-kirki-toggle input:checked + .switch:active:before,
+.customize-control-kirki-toggle input:checked + .switch:active:after {
+  background: rgba(0, 115, 170, 0.075);
+  transform: translate3d(100%, -50%, 0) scale(1.25);
+}
+
+/* Toggle color palette warning (if it exists) based on open/closed color picker */
+.wp-picker-container.wp-picker-active .color-palette-warning {
+  display: flex;
+}
+.color-palette-warning {
+  display: none;
+}
+
+.save-warning-wrap {
+  position: absolute;
+  z-index: 100000000;
+  top: 25%;
+  left: 0;
+  width: 11em;
+  padding: 1em 2em;
+  border-radius: 0 50PX 50PX 0;
+  font-size: 18px;
+  background: rgb(239 230 222);
+  box-shadow: inset 7px 7px 10px -7px rgb(255 255 255), inset -7px -7px 10px -7px rgb(0 0 0 / 35%), 3px 3px 4px -3px rgb(0 0 0 / 50%);
+}
+
+.color-palette-warning {
+  color: white;
+  background: #ff4d00e0;
+  padding: 1em 2em;
+  box-shadow: inset 3px 3px 4px -3px hsl(0deg 0% 0% / 50%), inset -3px -3px 4px -3px rgb(255 255 255);
+  margin: 1em auto;
+}
+
+.save-warning-wrap h3, .color-palette-warning h3 {
+  width: 80%;
+  color: #16161608;
+  text-align: center;
+  letter-spacing: 0.25em;
+  font-size: 24px;
+  padding: 1em 0.25em;
+  font-weight: 900;
+  line-height: 1.125;
+  text-shadow: -1px -1px 1px rgb(0 0 0 / 25%), 1px 1px 1px white;
+}
+
+.save-warning-wrap p {
+  font-size: inherit;
+}
+
+.color-palette-warning b {
+  display: block;
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+
+.save-warning-btn {
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: inset 7px 7px 10px -7px white, inset -7px -7px 10px -7px rgb(0 0 0 / 50%);
+  border: none;
+  transition: 0.3s all ease;
+}
+
+.save-warning-btn:hover {
+  transform: scale(1.1);
+}
+
+.save-warning-btn {
+  color: white;
+  background: #2271b1;
+}
+
+.gi-btn-down {
+  opacity: 0.5;
+  pointerevents: none;
+  cursor; not-allowed;
+}
+
+
+/* Adjustments to accomodate Publish button replacment */
+.accomodateReloadButton #customize-save-button-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.accomodateReloadButton #customize-save-button-wrapper #save {
+  visibility: hidden;
+  position: fixed;
+  z-index: -1;
+}
+
+.accomodateReloadButton #customize-save-button-wrapper .save-warning-btn {
+  padding: 0 1em;
+  border-radius: 10px 0 0 10px;
+}
